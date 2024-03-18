@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  width: 95px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.game-box {
+  width: 900px;
+  height: 400px;
+  margin: 30px auto;
+  position: relative;
+  overflow: hidden;
+  background-image: url(./image/back.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+.playBegin {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.playBegin img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.playBegin button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.playBegin .history {
+  transform: translate(-50%, 100%);
+}
+#myAudio {
+  opacity: 0;
+  position: absolute;
+}
+.playgame {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.person {
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  top: 160px;
+  left: 0;
+}
+.person img {
+  width: 100%;
+  height: 100%;
+}
+.ball {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.ballimg {
+  width: 100%;
+  height: 100%;
+}
+.gameOver {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.gameOver img {
+  width: 120px;
+  height: 120px;
+}
+.gameOver .again {
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.grade {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 230px;
+  height: 55px;
+}
+.mark {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+.mark img {
+  width: 30px;
+  height: 30px;
+}
+.mark img:nth-child(n + 2) {
+  margin-left: 13.75px;
+}
+.distance {
+  display: block;
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+}
